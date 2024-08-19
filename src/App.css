@@ -1,38 +1,100 @@
-.App {
-  text-align: center;
-}
+/* src/App.css */
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* 确保整体内容居中 */
+.app {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center; /* 水平居中 */
+  height: 100vh; /* 视口高度 */
+  background-color: #000; /* 黑色背景 */
+  color: #fff; /* 白色字体 */
+  margin: 0; /* 去掉默认边距 */
+  padding-top: 20px; /* 顶部留出一些间距 */
+  box-sizing: border-box; /* 包括内边距和边框在内 */
 }
 
-.App-link {
-  color: #61dafb;
+/* 确保 header 和 content 区域一致 */
+.content {
+  text-align: left; /* 文本左对齐 */
+  max-width: 500px; /* 最大宽度 */
+  width: 100%; /* 容器宽度 */
+  padding: 0 20px; /* 内容区域内边距，确保与 header 内边距对齐 */
+  margin-top: 20px; /* 与顶部之间的间距 */
+}
+.content p {
+  margin-bottom: 10px; /* 每段之间的间距 */
+}
+/* 样式用于 header */
+.header {
+  width: 100%; /* 占满容器宽度 */
+  background-color: #000; /* 黑色背景 */
+  padding: 10px 0; /* 上下内边距 */
+  box-sizing: border-box; /* 包括内边距和边框在内 */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* 确保 header 内的导航栏内容左对齐 */
+.header nav {
+  display: flex;
+  justify-content: flex-start; /* 左对齐 header 内的内容 */
+  gap: 20px; /* 链接之间的间距 */
+  padding-left: 0; /* 内边距，调整导航栏位置 */
+}
+
+/* 样式用于导航链接 */
+.header a {
+  color: #fff; /* 链接颜色 */
+  text-decoration: none; /* 去掉下划线 */
+  font-size: 1rem; /* 字体大小 */
+}
+
+.header a:hover {
+  color: #1e90ff; /* 悬浮时的颜色 */
+}
+
+/* 样式用于 footer */
+.footer {
+  margin-top: 20px;
+}
+
+.footer-icon {
+  width: 24px; /* 图标宽度 */
+  height: 24px; /* 图标高度 */
+  vertical-align: middle; /* 垂直对齐 */
+}
+
+.footer a {
+  color: #fff; /* 链接颜色 */
+  text-decoration: none; /* 去掉下划线 */
+}
+
+.footer a:hover {
+  color: #1e90ff; /* 悬浮时的颜色 */
+}
+/* 确保每个项目 div 在新的一行上 */
+.project {
+  border: 1px solid #2c2b2b; /* 边框颜色和样式 */
+  padding: 10px; /* 内边距 */
+  margin-bottom: 10px; /* 每个 div 之间的间距 */
+  background-color: #000; /* 背景颜色 (可选) */
+  width: 100%; /* 全宽 */
+  box-sizing: border-box; /* 包括内边距和边框在内 */
+}
+/* 子标题样式 */
+.sub-title {
+  font-size: 0.8rem; /* 字体大小 */
+  color: #fff; /* 文字颜色 */
+  margin-top: 5px; /* 上边距 */
+}
+.sub-title a {
+  text-decoration: none; /* 去掉下划线 */
+  color: #fff; /* 确保链接颜色与子标题颜色一致 */
+}
+.sub-title a:hover {
+  color: #1e90ff; /* 悬浮时的颜色 */
+}
+/* 可选：给 .project 添加一个全局容器，如果需要水平居中或其他布局调整 */
+.container {
+  max-width: 600px; /* 最大宽度 */
+  margin: 0 auto; /* 水平居中 */
+  padding: 20px; /* 容器内边距 */
 }
