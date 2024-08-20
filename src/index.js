@@ -15,15 +15,14 @@ const root = createRoot(rootElement);
 
 root.render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route path="/" element={<App />} /> {/* 主页面 */}
         <Route path="/blogpage" element={<BlogPage />} /> {/* 博客页面 */}
         <Route path="/tictactoe" element={<TicTacToePage />} />{" "}
         {/* TicTacToe 页面 */}
         <Route path="/projects" element={<Projects />} /> {/* 项目页面 */}
-        <Route path="/hobby" element={<Hobby />} />
-        {/* 兴趣页面 */}
+        <Route path="/hobby" element={<Hobby />} /> {/* 兴趣页面 */}
         {/* 404 页面 */}
       </Routes>
     </BrowserRouter>
