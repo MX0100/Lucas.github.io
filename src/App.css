@@ -8,15 +8,15 @@
   height: 100vh; /* 视口高度 */
   background-color: #000; /* 黑色背景 */
   color: #fff; /* 白色字体 */
-  margin: 0; /* 去掉默认边距 */
   padding-top: 20px; /* 顶部留出一些间距 */
   box-sizing: border-box; /* 包括内边距和边框在内 */
+  margin: 24px;
 }
 
 /* 确保 header 和 content 区域一致 */
 .content {
   text-align: left; /* 文本左对齐 */
-  max-width: 500px; /* 最大宽度 */
+  max-width: 672px; /* 最大宽度 */
   width: 100%; /* 容器宽度 */
   padding: 0 20px; /* 内容区域内边距，确保与 header 内边距对齐 */
   margin-top: 20px; /* 与顶部之间的间距 */
