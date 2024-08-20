@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Lucas.github.io/static/css/main.249494e0.css",
-    "main.js": "/Lucas.github.io/static/js/main.2c93ddeb.js",
-    "static/media/link.png": "/Lucas.github.io/static/media/link.181126881684c2cb88a4.png",
-    "index.html": "/Lucas.github.io/index.html",
-    "main.249494e0.css.map": "/Lucas.github.io/static/css/main.249494e0.css.map",
-    "main.2c93ddeb.js.map": "/Lucas.github.io/static/js/main.2c93ddeb.js.map"
+    "main.css": "/blog/static/css/main.249494e0.css",
+    "main.js": "/blog/static/js/main.e7b745c1.js",
+    "static/media/link.png": "/blog/static/media/link.181126881684c2cb88a4.png",
+    "index.html": "/blog/index.html",
+    "main.249494e0.css.map": "/blog/static/css/main.249494e0.css.map",
+    "main.e7b745c1.js.map": "/blog/static/js/main.e7b745c1.js.map"
   },
   "entrypoints": [
     "static/css/main.249494e0.css",
-    "static/js/main.2c93ddeb.js"
+    "static/js/main.e7b745c1.js"
   ]
 }
