@@ -7,18 +7,29 @@ function BlogPage() {
   return (
     <div className="app">
       <div className="content">
-        <Header /> {/* 添加 Header 只需一行代码*/}
-        <h2>Welcome to My Blog!</h2>
-        <p>This is where I share my thoughts, updates, and insights.</p>
-        <p>
-          Feel free to explore my <Link to="/tictactoe">Tic-Tac-Toe game</Link>{" "}
-          to take a break from reading.
-        </p>
-        <p>
-          Here, I will post articles about various topics of interest. Stay
-          tuned for more updates!
-        </p>
-        <p>Additional content will be added here as the blog grows.</p>
+        <Header /> {/* 添加 Header 只需一行代码 */}
+        <h2>26th Aug, 2024</h2>
+        <p>I have climbed the Gros Morne Mountain.</p>
+        <div style={{ float: "left", marginRight: "10px" }}>
+          <img
+            src={process.env.PUBLIC_URL + "/grosMorne1.jpg"}
+            alt="Image"
+            style={{
+              width: "320px",
+              height: "auto",
+            }}
+          />
+        </div>
+        <div style={{ float: "right", marginRight: "10px" }}>
+          <img
+            src={process.env.PUBLIC_URL + "/grosMorne2.jpg"}
+            alt="Image"
+            style={{
+              width: "320px",
+              height: "auto",
+            }}
+          />
+        </div>
         <footer className="footer">
           <p>
             <a
