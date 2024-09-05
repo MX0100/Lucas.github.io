@@ -28,16 +28,6 @@ function App() {
           MySQL, MongoDB, Redis, and SQLite.
         </p>
         <p>
-          I have done a course project by VHDL,{" "}
-          <a
-            href="https://github.com/MX0100/life-fpga"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Please Check it out
-          </a>
-        </p>
-        <p>
           Since you are here, you may want to check out my
           <Link to="/tictactoe"> Tic-Tac-Toe game</Link>
           to take a break from coding.

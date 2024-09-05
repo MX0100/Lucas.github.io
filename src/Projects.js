@@ -33,6 +33,15 @@ function Projects() {
                 Car plate recognition system Based on Python and OpenCV
               </a>
             </div>
+            <div class="sub-title">
+              <a
+                href="https://github.com/MX0100/life-fpga"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                "Game of Life" Implementation on FPGA using VHDL
+              </a>
+            </div>
           </div>
           <div class="project">
             <div class="title">Collaborative Project ：TBD</div>
